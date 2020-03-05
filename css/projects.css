@@ -1,24 +1,44 @@
-.projectContainer {
-     padding-top: 125px;
-     text-align: center;
-     width: 30%;
-     margin: 0 auto;
-     display: flex;
-     flex-flow: row wrap;
-     justify-content: flex-end;
-}
-.projectItem{
+.willkommen {
      background-image: url("images/unity3DPic.png");
      background-position:center;
-	background-repeat:no-repeat;
-	background-size:cover;
+     background-repeat:no-repeat;
+     background-size:cover;
      background-color: #bca4ba;
-     color: white;
-     padding: 20px;
-     margin: 25px;
-     width: 75%;
-     height: 400px;
 }
-.projectItem h3 {
-     font-size: 48px;
+.rollie {
+     background-image: url("images/chromo_pic.png");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-color: #bca4ba;
+}
+
+.xintiandi {
+     background-image: url("images/xtd_env.png");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-color: #bca4ba;
+}
+
+.viewsBerlin {
+     background-image: url("images/trashPile_1.png");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-color: #bca4ba;
+}
+.architecture {
+     background-image: url("images/photography_1.JPG");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-color: #bca4ba;
+}
+.photogram {
+     background-image: url("images/trashPile_1.png");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-color: #bca4ba;
 }
