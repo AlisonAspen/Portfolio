@@ -18,6 +18,7 @@ header {
      font-family: "Permanent Marker", serif;
      font-size: 25px;
      padding: 20px 45px;
+     letter-spacing: 5px;
 }
 nav {
      width: 175px;
@@ -54,54 +55,45 @@ nav {
      flex-flow: row wrap;
      justify-content: flex-end;
 }
+/*project blocks */
+.projectBlock {
+     color: white;
+     padding: 20px;
+     margin: 25px;
+     width: 75%;
+     height: 400px;
+}
+.projectBlock:hover {
+     opacity: 50%;
+     cursor: pointer;
+}
 .unityContainer{
      background-image: url("images/unity3DPic.png");
      background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
      background-color: #bca4ba;
-     color: white;
-     padding: 20px;
-     margin: 25px;
-     width: 75%;
-     height: 400px;
+
 }
-.unityContainer:hover {
-     opacity: 50%;
-     cursor: pointer;
-}
+
 .photographyContainer{
      background-image: url("images/unity3DPic.png");
      background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
      background-color: #bca4ba;
-     color: white;
-     padding: 20px;
-     margin: 25px;
-     width: 75%;
-     height: 400px;
+
 }
-.photographyContainer:hover {
-     opacity: 50%;
-     cursor: pointer;
-}
+
 .modelingContainer{
      background-image: url("images/unity3DPic.png");
      background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
      background-color: #bca4ba;
-     color: white;
-     padding: 20px;
-     margin: 25px;
-     width: 75%;
-     height: 400px;
+
 }
-.modelingContainer:hover {
-     opacity: 50%;
-     cursor: pointer;
-}
+
 /* used in panels for projects */
 h3 {
      font-family: "Lacquer", sans-serif;
