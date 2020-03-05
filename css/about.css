@@ -1,0 +1,26 @@
+.mainPage {
+     margin-top: 200px;
+     margin-left: 250px;
+     margin-right: 150px;
+}
+.imageHolder{
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+
+}
+img {
+     width: 250px;
+     height: 250px;
+}
+.aboutText {
+     padding: 15px;
+}
+p {
+     font-family: "Inconsolata", serif;
+     font-size: 16px;
+}
+h2 {
+     font-family: "Inconsolata", serif;
+}
+/* === MEDIA QUERIES == */

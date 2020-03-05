@@ -1,0 +1,112 @@
+* {
+     margin: 0px;
+     padding: 0px;
+}
+body {
+     background-color: #fcf5e0;
+}
+header {
+     width: 100%;
+     height: 135px;
+     display: block;
+     background-color: #c5d8c6;
+     position: fixed;
+     top: 0px;
+     left: 200px;
+}
+.headText {
+     font-family: "Permanent Marker", serif;
+     font-size: 25px;
+     padding: 20px 45px;
+}
+nav {
+     width: 175px;
+}
+.sideNav {
+     padding: 20px 25px;
+     height: 100%; /* Full-height: remove this if you want "auto" height */
+     width: 160px; /* Set the width of the sidebar */
+     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+     z-index: 1; /* Stay on top */
+     top: 0; /* Stay at the top */
+     left: 0;
+     background-color: #111; /* Black */
+     overflow-x: hidden; /* Disable horizontal scroll */
+}
+.navItem {
+     padding-top: 50px;
+}
+.navItem a {
+     text-decoration: none;
+     color: white;
+     font-family: "Inconsolata", sans-serif;
+     font-size: 22px;
+}
+.navItem a:hover {
+     text-decoration: underline;
+}
+.container {
+     padding-top: 125px;
+     text-align: center;
+     width: 80%;
+     margin: 0 auto;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: flex-end;
+}
+.unityContainer{
+     background-image: url("images/unity3DPic.png");
+     background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+     background-color: #bca4ba;
+     color: white;
+     padding: 20px;
+     margin: 25px;
+     width: 75%;
+     height: 400px;
+}
+.unityContainer:hover {
+     opacity: 50%;
+     cursor: pointer;
+}
+.photographyContainer{
+     background-image: url("images/unity3DPic.png");
+     background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+     background-color: #bca4ba;
+     color: white;
+     padding: 20px;
+     margin: 25px;
+     width: 75%;
+     height: 400px;
+}
+.photographyContainer:hover {
+     opacity: 50%;
+     cursor: pointer;
+}
+.modelingContainer{
+     background-image: url("images/unity3DPic.png");
+     background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+     background-color: #bca4ba;
+     color: white;
+     padding: 20px;
+     margin: 25px;
+     width: 75%;
+     height: 400px;
+}
+.modelingContainer:hover {
+     opacity: 50%;
+     cursor: pointer;
+}
+/* used in panels for projects */
+h3 {
+     font-family: "Lacquer", sans-serif;
+     font-size: 72px;
+     padding-top: 150px;
+}
+
+/* === MEDIA QUERIES === */
