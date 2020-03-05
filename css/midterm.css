@@ -23,6 +23,10 @@ header {
 nav {
      width: 175px;
 }
+ul {
+     list-style-type: none;
+}
+/*side nav css taken from w3 schools tutorial */
 .sideNav {
      padding: 20px 25px;
      height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -32,10 +36,11 @@ nav {
      top: 0; /* Stay at the top */
      left: 0;
      background-color: #bca4ba;
+     text-align: center;
      overflow-x: hidden; /* Disable horizontal scroll */
 }
 .navItem {
-     padding-top: 50px;
+     padding: 100px 0px;
 }
 .navItem a {
      text-decoration: none;
