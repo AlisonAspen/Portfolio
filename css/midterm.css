@@ -15,10 +15,14 @@ header {
      left: 200px;
 }
 .headText {
-     font-family: "Permanent Marker", serif;
-     font-size: 25px;
-     padding: 20px 45px;
-     letter-spacing: 5px;
+     font-family: "Major Mono Display", serif;
+     padding: 40px 45px;
+}
+.headText a {
+     text-decoration: none;
+     color: black;
+     font-weight: 3px;
+     font-size: 32px;
 }
 nav {
      width: 175px;
@@ -104,7 +108,7 @@ ul {
 
 /* used in panels for projects */
 h3 {
-     font-family: "Lacquer", sans-serif;
+     font-family: "Major Mono Display", sans-serif;
      font-size: 72px;
      padding-top: 150px;
 }
