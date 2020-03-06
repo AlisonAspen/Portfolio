@@ -11,3 +11,9 @@ function loadTraditional() {
 function loadModeling() {
      window.open("modeling.html", "_self");
 }
+function loadWillkommen() {
+     window.open("willkommen.html", "_self");
+}
+function loadRollie() {
+     window.open("rollie.html");
+}

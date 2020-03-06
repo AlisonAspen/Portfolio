@@ -1,2 +1,5 @@
 # Portfolio
- Portfolio Website created as part of IMA-FE
+ Portfolio Website for my personal Work
+
+# In progress
+This website is still under construction; however, all functions should be available soon.
