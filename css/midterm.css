@@ -126,7 +126,21 @@ ul {
      background-color: #bca4ba;
 
 }
+.illustration {
+     background-image: url("images/illustrations.jpg");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-color: #bca4ba;
+}
+/* target this text to help with contrast */
+.illustration h3 {
+     color: #ffa477;
+     background-color: white;
+     padding: 5px;
+     margin-top: 150px;
 
+}
 .modelingContainer{
      background-image: url("images/xtd_env.png");
      background-position:center;

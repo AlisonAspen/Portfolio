@@ -50,17 +50,4 @@
      background-size:cover;
      background-color: #bca4ba;
 }
-
-
-.illustration {
-     background-image: url("images/illustrations.jpg");
-     background-position:center;
-     background-repeat:no-repeat;
-     background-size:cover;
-     background-color: #bca4ba;
-}
-/* target this text to help with contrast */
-.illustration h3 {
-     color: #ffa477;
-}
 /* === MEDIA QUERIES === */
