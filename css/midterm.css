@@ -101,6 +101,7 @@ ul {
      margin: 25px;
      width: 75%;
      height: 400px;
+     text-align: center;
      box-shadow: 10px 10px 5px #bca4ba;
 
 }
@@ -147,10 +148,13 @@ ul {
 /* used in panels for projects */
 h3 {
      font-family: "Major Mono Display", sans-serif;
-     font-size: 72px;
+     text-align: center;
+     width: 80%;
+     font-size: 64px;
      color: #ffa477;
      background-color: white;
-     padding: 2px 2px;
+     padding: 20px 10px;
+     margin: 0 auto;
      margin-top: 150px;
 }
 
