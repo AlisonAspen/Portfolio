@@ -76,8 +76,17 @@ ul {
      text-decoration: underline;
 }
 
+.titleText {
+     font-family: "Major Mono Display", serif;
+     color: black;
+     font-size: 36px;
+     width: 75%;
+     text-align: center;
+     padding: 20px;
+}
+
 .container {
-     padding-top: 125px;
+     padding-top: 150px;
      text-align: center;
      width: 80%;
      margin: 0 auto;
