@@ -15,5 +15,5 @@ function loadWillkommen() {
      window.open("willkommen.html", "_self");
 }
 function loadRollie() {
-     window.open("rollie.html");
+     window.open("rollie.html", "_self");
 }
