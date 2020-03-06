@@ -17,3 +17,9 @@ function loadWillkommen() {
 function loadRollie() {
      window.open("rollie.html", "_self");
 }
+function loadXTD() {
+
+}
+function loadPhotogram() {
+     
+}

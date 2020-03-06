@@ -57,6 +57,7 @@ ul {
      background-color: #bca4ba;
      text-align: center;
      overflow-x: hidden; /* Disable horizontal scroll */
+     overflow-y: hidden;
 }
 
 .navItem {
