@@ -1,3 +1,4 @@
+
 .willkommen {
      background-image: url("images/unity3DPic.png");
      background-position:center;
@@ -11,6 +12,7 @@
      background-repeat:no-repeat;
      background-size:cover;
      background-color: #bca4ba;
+     color: black;
 }
 
 .xintiandi {
@@ -28,6 +30,7 @@
      background-size:cover;
      background-color: #bca4ba;
 }
+
 .architecture {
      background-image: url("images/photography_1.JPG");
      background-position:center;
@@ -35,6 +38,11 @@
      background-size:cover;
      background-color: #bca4ba;
 }
+
+.architecture h3 {
+     padding-top: 80px;
+}
+
 .photogram {
      background-image: url("images/trashPile_1.png");
      background-position:center;
