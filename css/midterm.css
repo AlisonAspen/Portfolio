@@ -134,13 +134,7 @@ ul {
      background-color: #bca4ba;
 }
 /* target this text to help with contrast */
-.illustration h3 {
-     color: #ffa477;
-     background-color: white;
-     padding: 5px;
-     margin-top: 150px;
 
-}
 .modelingContainer{
      background-image: url("images/xtd_env.png");
      background-position:center;
@@ -154,7 +148,10 @@ ul {
 h3 {
      font-family: "Major Mono Display", sans-serif;
      font-size: 72px;
-     padding-top: 150px;
+     color: #ffa477;
+     background-color: white;
+     padding: 2px 2px;
+     margin-top: 150px;
 }
 
 /* === MEDIA QUERIES === */

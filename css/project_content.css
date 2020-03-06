@@ -1,0 +1,25 @@
+/* use for individual project pages */
+.titleText {
+     width: 50%;
+     text-align: center;
+}
+.subTitle {
+     width: 50%;
+     text-align: center;
+     font-family: "Inconsolata", serif;
+}
+.projectImage {
+     width: 50%;
+     height: 350px;
+}
+p {
+     width: 50%;
+     font-family: "Inconsolata", serif;
+     text-align: left;
+
+     padding: 50px 25%;
+}
+
+.container {
+     padding-left: 100px;
+}
