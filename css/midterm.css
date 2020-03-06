@@ -25,8 +25,8 @@ header {
      font-size: 32px;
 }
 .headText a:hover {
-     color: #ffa477;
-     background-color: #fff;
+     color: #fff;
+     background-color: #ffa477;
 }
 .altHeader {
      display: none;
@@ -60,6 +60,8 @@ ul {
      font-size: 22px;
 }
 .navItem a:hover {
+     color: #fff;
+     background-color: #ffa477;
      text-decoration: underline;
 }
 .container {
@@ -74,6 +76,7 @@ ul {
 /*project blocks */
 .projectBlock {
      color: white;
+     
      padding: 20px;
      margin: 25px;
      width: 75%;
@@ -96,7 +99,7 @@ ul {
 }
 
 .photographyContainer{
-     background-image: url("images/unity3DPic.png");
+     background-image: url("images/photography_2.jpg");
      background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -105,7 +108,7 @@ ul {
 }
 
 .modelingContainer{
-     background-image: url("images/unity3DPic.png");
+     background-image: url("images/xtd_env.png");
      background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
