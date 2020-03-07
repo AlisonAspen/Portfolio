@@ -18,10 +18,11 @@ p {
 
 }
 .textHolder {
-     width: 80%;
+     width: 75%;
      padding-top: 150px;
      margin: 0 auto;
      text-align: center;
+     padding-left: 150px;
 }
 .titleText {
      width: 100%;
@@ -33,7 +34,9 @@ p {
      font-family: "Inconsolata", serif;
 }
 .container {
-     width: 80%;
+     width: 75%;
+     margin: 0 auto;
+     padding-left: 150px;
 
 }
 .containerElement {

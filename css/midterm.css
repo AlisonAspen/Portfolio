@@ -86,7 +86,7 @@ ul {
      padding: 20px;
 }
 .mainPage {
-     margin-left: 175px;
+     margin-left: 2%;
 }
 .container {
      padding-top: 150px;
@@ -145,8 +145,8 @@ ul {
 	background-repeat:no-repeat;
 	background-size:cover;
      background-color: #bca4ba;
-
 }
+
 
 /* used in panels for projects */
 h3 {

@@ -21,8 +21,11 @@ function loadXTD() {
      window.open("xtd.html", "_self");
 }
 function loadPhotogram() {
-
+     //open photogrammetry page
 }
 function loadBerlinViews(){
-     window.open("", "_self");
+     //open "views of Berlin" page
+}
+function loadOLL() {
+     //load "one last look page"
 }

@@ -39,6 +39,14 @@
      background-color: #bca4ba;
 }
 
+.lastLook {
+     background-image: url("images/oll_3.png");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-color: #bca4ba;
+}
+
 .photogram {
      background-image: url("images/trashPile_1.png");
      background-position:center;
