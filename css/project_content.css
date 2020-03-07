@@ -1,6 +1,6 @@
 
 .projectImage {
-     width: 75%;
+     width: 100%;
      margin-bottom: 20px;
      border: 5px solid black;
 }
@@ -10,16 +10,15 @@
      border: 5px solid black;
 }
 p {
-     width: 60%;
+     width: 100%;
      margin: 0 auto;
      font-family: "Inconsolata", serif;
      text-align: left;
      font-size: 24px;
-     padding: 50px 25%;
+
 }
 .textHolder {
      width: 80%;
-     padding-left: 5%;
      padding-top: 150px;
      margin: 0 auto;
      text-align: center;
@@ -37,7 +36,7 @@ p {
      width: 80%;
      padding-left: 100px;
 }
-.contianerElement {
+.containerElement {
      width: 100%;
      margin-left: 140px;
 }
