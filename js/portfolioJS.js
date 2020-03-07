@@ -23,3 +23,6 @@ function loadXTD() {
 function loadPhotogram() {
 
 }
+function loadBerlinViews(){
+     window.open("", "_self");
+}

@@ -2,7 +2,7 @@
 .projectImage {
      width: 100%;
      margin-bottom: 20px;
-     border: 5px solid black;
+
 }
 .projectVideo {
      width: 75%;
@@ -34,9 +34,9 @@ p {
 }
 .container {
      width: 80%;
-     padding-left: 100px;
+
 }
 .containerElement {
      width: 100%;
-     margin-left: 140px;
+
 }

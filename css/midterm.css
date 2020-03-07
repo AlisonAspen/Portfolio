@@ -85,7 +85,9 @@ ul {
      text-align: center;
      padding: 20px;
 }
-
+.mainPage {
+     margin-left: 175px;
+}
 .container {
      padding-top: 150px;
      text-align: center;
