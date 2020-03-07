@@ -10,16 +10,16 @@
      border: 5px solid black;
 }
 p {
-     width: 50%;
+     width: 60%;
      margin: 0 auto;
      font-family: "Inconsolata", serif;
      text-align: left;
-
+     font-size: 24px;
      padding: 50px 25%;
 }
 .textHolder {
      width: 80%;
-     padding-left: 10%;
+     padding-left: 5%;
      padding-top: 150px;
      margin: 0 auto;
      text-align: center;
@@ -34,9 +34,10 @@ p {
      font-family: "Inconsolata", serif;
 }
 .container {
+     width: 80%;
      padding-left: 100px;
 }
 .contianerElement {
-     width: 80%;
-     margin-left: 150px;
+     width: 100%;
+     margin-left: 140px;
 }
