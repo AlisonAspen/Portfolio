@@ -22,10 +22,12 @@ function loadXTD() {
 }
 function loadPhotogram() {
      //open photogrammetry page
+     window.open("photogram.html", "_self");
 }
 function loadBerlinViews(){
      //open "views of Berlin" page
 }
 function loadOLL() {
      //load "one last look page"
+     window.open("oll.html", "_self");
 }
