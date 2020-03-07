@@ -11,6 +11,7 @@
 }
 p {
      width: 100%;
+     line-height: 40px;
      margin: 0 auto;
      display: block;
      font-family: "Inconsolata", serif;
@@ -27,10 +28,16 @@ p {
 }
 .titleText {
      width: 100%;
+     background-color: white;
+     color: #ffa477;
+     font-size: 42px;
+     padding: 30px 10px;
      text-align: center;
 }
 .subTitle {
      width: 100%;
+     font-size: 36px;
+     padding: 20px 10px;
      text-align: center;
      font-family: "Inconsolata", serif;
 }
