@@ -25,7 +25,7 @@ function loadPhotogram() {
      window.open("photogram.html", "_self");
 }
 function loadBerlinViews(){
-     //open "views of Berlin" page
+     window.open("viewsOfBerlin.html", "_self");
 }
 function loadOLL() {
      //load "one last look page"
