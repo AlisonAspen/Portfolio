@@ -52,10 +52,10 @@ p {
 }
 
 .container {
-     width: 75%;
-     margin: 0 auto;
+     width: 80%;
+     text-align: center;
      padding-left: 150px;
-
+     margin: 0 auto;
 }
 
 .containerElement {
