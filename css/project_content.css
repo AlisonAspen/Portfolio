@@ -4,11 +4,13 @@
      margin-bottom: 20px;
 
 }
+
 .projectVideo {
      width: 75%;
      margin-bottom: 20px;
      border: 5px solid black;
 }
+
 p {
      width: 100%;
      line-height: 40px;
@@ -17,8 +19,8 @@ p {
      font-family: "Inconsolata", serif;
      text-align: left;
      font-size: 24px;
-
 }
+
 .textHolder {
      width: 75%;
      padding-top: 150px;
@@ -26,6 +28,7 @@ p {
      text-align: center;
      padding-left: 150px;
 }
+
 .titleText {
      width: 100%;
      background-color: white;
@@ -35,41 +38,47 @@ p {
      margin: 40px 0px;
      text-align: center;
 }
+
 .subTitle {
      width: 100%;
-     font-size: 36px;
+     font-size: 30px;
      padding: 20px 10px;
      text-align: center;
      font-family: "Inconsolata", serif;
 }
+
 .description {
      font-size: 24px;
 }
+
 .container {
      width: 75%;
      margin: 0 auto;
      padding-left: 150px;
 
 }
+
 .containerElement {
      width: 100%;
 }
+
 .textLink {
      font-family: "Major Mono Display", sans-serif;
      text-align: center;
      display: block;
      width: 80%;
      font-size: 64px;
-     color: #ffa477;
-     background-color: white;
+     color: white;
+     background-color: #ffa477;
      padding: 30px 20px;
      margin: 0 auto;
-     margin-top: 10px;
-     margin-bottom: 10px;
+     margin-top: 40px;
+     margin-bottom: 40px;
      text-decoration: none;
 }
+
 .textLink:hover {
      text-decoration: underline;
-     background-color:#ffa477;
-     color: white;
+     background-color: white;
+     color: #ffa477;
 }
