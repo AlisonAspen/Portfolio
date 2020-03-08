@@ -32,6 +32,7 @@ p {
      color: #ffa477;
      font-size: 42px;
      padding: 30px 10px;
+     margin: 40px 0px;
      text-align: center;
 }
 .subTitle {
@@ -40,6 +41,9 @@ p {
      padding: 20px 10px;
      text-align: center;
      font-family: "Inconsolata", serif;
+}
+.description {
+     font-size: 24px;
 }
 .container {
      width: 75%;
