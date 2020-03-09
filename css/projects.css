@@ -77,10 +77,15 @@
 .textHolder p {
      font-family: "Inconsolata", serif;
      font-size: 24px;
+     line-height: 40px;
+     text-align: left;
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 414px) {
      .titleText {
+          width: 100%;
+     }
+     .textHolder{
           width: 100%;
      }
      h1 {
@@ -89,5 +94,7 @@
      .projectBlock h3 {
           font-size: 24px;
      }
-
+     p {
+          font-size: 18px;
+     }
 }
