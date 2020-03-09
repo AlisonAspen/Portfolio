@@ -31,3 +31,6 @@ function loadOLL() {
      //load "one last look page"
      window.open("oll.html", "_self");
 }
+function loadContact() {
+     window.open("contact.html", "_self");
+}

@@ -3,14 +3,13 @@
      <head>
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
-          <title>A.A.F. About</title>
+          <title>A.A.F</title>
           <link rel="stylesheet" href="css/midterm.css"></link>
+
           <!-- linking in google fonts -->
           <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lacquer|Permanent+Marker&display=swap" rel="stylesheet">
           <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap" rel="stylesheet">
-          <link rel="stylesheet" href="css/about.css"></link>
 
-          <!--link to javascript-->
           <script type="text/javascript" src="js/portfolioJS.js"></script>
      </head>
      <body>
@@ -21,7 +20,7 @@
                     <a href="index.html" class="altHeader">A.A.F</a>
                </div>
           </header>
-          <!-- possible sidebar -->
+          <!-- sidebar -->
           <nav>
                <ul class="sideNav">
                     <li class="navItem"><a href = "about.html">about</a></li>
@@ -29,30 +28,37 @@
                     <li class="navItem"><a href = "contact.html">contact</a></li>
                </ul>
           </nav>
-          <!--mobile navBar -->
 
-               <div class="mobileNav">
-                    <ul>
-                         <li><a href="about.html">about</a></li>
-                         <li ><a href="projects.html">projects</a></li>
+          <!--mobile navBar -->
+          <div class="mobileNav">
+               <ul>
+                    <li><a href="about.html">about</a></li>
+                    <li ><a href="projects.html">projects</a></li>
                     <li><a href="contact.html">contact</a></li>
                </ul>
-               </div>
+          </div>
 
-
-          <!--main content -->
+          <!-- project blocks -->
           <section class="mainPage">
-               <div class="imageHolder">
-                    <img src="css/images/profile.PNG"/>
-               </div>
-               <div class="aboutText">
-                    <h2>Who the heck am I?</h2>
-                    <br>
-                    <p>Hi there! I am currently a junior at NYU Shanghai, but will be based out of New York for the spring of 2020. My areas of study are Interactive Media Arts, Computer Science, and Chinese language. Much of my practice involves blurring the lines between art and technology. I have worked on multiple Virtual Reality environments, both for personal and professional experience. For 3D modeling, I tend to focus on artistic boundaries capable through the technique of photogrammetry, though I have worked with 3DS Max for manipulation of my photogrammetry models.
-               </p>
+               <div class = "container">
 
-               <h3 onclick="loadContact()">Want to Contact Me?</h3>
+                    <h2 class="externalHeader">Let's get in touch.</h2>
+
+                    <p class="email">If you'd like to get in touch with me, send me an email.</p>
+                    <br>
+                    <p class="email emailLink">alison.a.frank@gmail.com</p>
+                    <br>
+                    <p class="email">Or find me on Instagram:</p>
+                    <a class="insta" href="https://www.instagram.com/ally.aspen/?hl=en" target="_blank">@ally.aspen</a>
+
+                    <div class="externalHeader"><p>Links to my external work: </p></div>
+
+                    <div class="contactText"><a href="https://github.com/AlisonAspen" target="_blank">Github</a></div>
+
+                    <div class="contactText"><a href="https://sketchfab.com/alison.aspen/models" target="_blank">Sketchfab</a></div>
+
                </div>
           </section>
+
      </body>
 </html>
