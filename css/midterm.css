@@ -165,17 +165,55 @@ h3 {
      margin: 0 auto;
      margin-top: 150px;
 }
-
 /* === MEDIA QUERIES === */
+
+/* larger-format smartphone */
+@media screen and (max-width: 414px) {
+     .mobileNav {
+          display: flex;
+          margin-top: 175px;
+          flex-flow: row wrap;
+          justify-content: space-around;
+     }
+     .mobileNav ul {
+          width: 100%;
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+     }
+     .sideNav {
+          display: none;
+     }
+     header {
+          left: 0px;
+          height: 120px;
+     }
+     .headText {
+          padding: 35px 25px;
+     }
+     .mainHeader {
+          display: none;
+     }
+     .altHeader {
+          display: inline-block;
+     }
+     .mainPage {
+          clear: both;
+     }
+     .projectBlock {
+          width: 85%;
+          height: 300px;
+     }
+     h3 {
+          font-size: 32px;
+     }
+}
 /*small smartphone */
 @media screen and (max-width: 375px) {
      header {
           left: 0px;
           height: 100px;
-     }
-
-     .sideNav {
-          display: none;
      }
 
      .headText {
@@ -204,49 +242,18 @@ h3 {
           color: white;
           font-size: 20px;
      }
-     
 
      .container {
           margin-top: 0px;
           padding-top: 0px;
-     }
-
-     h3 {
-          font-size: 28px;
-     }
-}
-
-/* larger-format smartphone */
-@media screen and (max-width: 414px) {
-     .mobileNav {
-          display: flex;
-          margin-top: 175px;
-          flex-flow: row wrap;
-          justify-content: space-around;
-     }
-
-     header {
-          left: 0px;
-          height: 120px;
-     }
-     .headText {
-          padding: 35px 25px;
-     }
-     .mainHeader {
-          display: none;
-     }
-     .altHeader {
-          display: inline-block;
-     }
-     .mainPage {
-          clear: both;
+          width: 100%;
      }
      .projectBlock {
-          width: 85%;
-          height: 300px;
+          width: 95%;
      }
      h3 {
-          font-size: 32px;
+          font-size: 20px;
+          margin-top: 125px;
      }
 }
 /* tablet */
