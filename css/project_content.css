@@ -82,3 +82,34 @@ p {
      background-color: white;
      color: #ffa477;
 }
+/*===MEDIA QUERIES===*/
+@media screen and (max-width: 414px) {
+     .textHolder {
+          width: 95%;
+          margin: 0 auto;
+          padding: 0px;
+     }
+     .titleText {
+          width: 95%;
+          font-size: 36px;
+     }
+     .container {
+          width: 95%;
+          margin: 0 auto;
+          padding: 0px;
+     }
+     .projectVideo {
+          width: 95%;
+     }
+     .subTitle {
+          font-size: 22px;
+     }
+     h1 {
+          font-size: 36px;
+     }
+     .contentHolder p {
+          font-size: 18px;
+          width: 90%;
+          margin: 0 auto;
+     }
+}
