@@ -166,12 +166,13 @@ h3 {
      margin-top: 150px;
 }
 /* === MEDIA QUERIES === */
-
+/*tablet*/
 /* larger-format smartphone */
 @media screen and (max-width: 414px) {
      .mobileNav {
           display: flex;
-          margin-top: 175px;
+          margin-top: 185px;
+          margin-bottom: 25px;
           flex-flow: row wrap;
           justify-content: space-around;
      }
@@ -182,6 +183,31 @@ h3 {
           flex-direction: row;
           justify-content: space-around;
      }
+     .mobileNav {
+          width: 100%;
+          margin-top: 125px;
+     }
+
+     .mobileNav ul {
+          width: 100%;
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+     }
+     .mobileNav li {
+          width: 25%;
+          background-color: #bca4ba;
+          padding: 20px 5px;
+          box-shadow: 5px 5px 5px #808080;
+
+     }
+     .mobileNav a {
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+     }
+
      .sideNav {
           display: none;
      }
@@ -201,12 +227,25 @@ h3 {
      .mainPage {
           clear: both;
      }
-     .projectBlock {
-          width: 85%;
-          height: 300px;
+     .container {
+          margin-top: 0px;
+          padding-top: 0px;
+          width: 100%;
      }
+     .projectBlock {
+          width: 95%;
+          height: 350px;
+          margin: 25px;
+          box-shadow: 5px 5px 5px #bca4ba;
+     }
+
      h3 {
           font-size: 32px;
+          box-shadow: 4px 4px 2px #bca4ba;
+     }
+
+     p {
+          font-size: 20px;
      }
 }
 /*small smartphone */
@@ -220,40 +259,12 @@ h3 {
           padding: 30px 25px;
      }
 
-     .mobileNav {
-          width: 100%;
-          margin-top: 125px;
-     }
-
-     .mobileNav ul {
-          width: 100%;
-          text-align: center;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-around;
-     }
-     .mobileNav li {
-          width: 25%;
-          background-color: #bca4ba;
-          padding: 20px 5px;
-     }
-     .mobileNav a {
-          text-decoration: none;
-          color: white;
-          font-size: 20px;
-     }
-
-     .container {
-          margin-top: 0px;
-          padding-top: 0px;
-          width: 100%;
-     }
      .projectBlock {
-          width: 95%;
+          width: 90%;
      }
+
      h3 {
           font-size: 20px;
-          margin-top: 125px;
+          margin-top: 175px;
      }
 }
-/* tablet */

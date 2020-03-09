@@ -25,3 +25,26 @@ h2 {
 }
 
 /* === MEDIA QUERIES == */
+@media screen and (max-width: 414px) {
+     .mainPage {
+          margin: 0 auto;
+          width: 95%;
+     }
+
+     .mobileNav {
+          clear: both;
+          margin-top: 150px;
+          margin-bottom: 25px;
+
+     }
+     .mobileNav {
+          width: 100%;
+     }
+     p {
+          font-size: 20px;
+     }
+     h2 {
+          font-size: 28px;
+     }
+     
+}
