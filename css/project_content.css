@@ -103,6 +103,7 @@ p {
      }
      .subTitle {
           font-size: 22px;
+          text-align: center;
      }
      h1 {
           font-size: 36px;
@@ -118,5 +119,12 @@ p {
           margin: 0 auto;
           line-height: 30px;
           margin-bottom: 10px;
+     }
+     .textLink {
+          font-size: 22px;
+     }
+     .textHolder p {
+          text-align: left;
+          font-size: 18px;
      }
 }
