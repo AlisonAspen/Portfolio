@@ -204,6 +204,7 @@ h3 {
      }
      .mobileNav a {
           text-decoration: none;
+          font-family: "Inconsolata", serif;
           color: white;
           font-size: 20px;
      }

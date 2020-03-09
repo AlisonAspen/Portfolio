@@ -48,7 +48,7 @@
 }
 
 .photogram {
-     background-image: url("images/trashPile_1.png");
+     background-image: url("images/wall_1.JPG");
      background-position:center;
      background-repeat:no-repeat;
      background-size:cover;
@@ -79,3 +79,15 @@
      font-size: 24px;
 }
 /* === MEDIA QUERIES === */
+@media screen and (max-width: 414px) {
+     .titleText {
+          width: 100%;
+     }
+     h1 {
+          font-size: 36px;
+     }
+     .projectBlock h3 {
+          font-size: 24px;
+     }
+
+}
