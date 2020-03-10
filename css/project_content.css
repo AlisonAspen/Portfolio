@@ -83,6 +83,85 @@ p {
      color: #ffa477;
 }
 /*===MEDIA QUERIES===*/
+@media screen and (max-width: 768px) {
+     .mainPage {
+          margin-left: 15%;
+     }
+     .container{
+          width: 100%;
+     }
+     .mobileNav {
+          display: flex;
+          margin-bottom: 25px;
+          flex-flow: row wrap;
+          justify-content: space-around;
+     }
+     .mobileNav ul {
+          width: 100%;
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+     }
+     .mobileNav {
+          width: 100%;
+          margin-top: 175px;
+     }
+
+     .mobileNav ul {
+          width: 100%;
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+     }
+     .mobileNav li {
+          width: 25%;
+          background-color: #bca4ba;
+          padding: 30px 15px;
+          box-shadow: 5px 5px 5px #808080;
+
+     }
+     .mobileNav a {
+          text-decoration: none;
+          font-family: "Inconsolata", serif;
+          color: white;
+          font-size: 24px;
+     }
+
+     .sideNav {
+          display: none;
+     }
+     header {
+          left: 0px;
+          width: 100%;
+     }
+     .mainPage {
+          width: 100%;
+          padding-left: 0px;
+          margin: 0 auto;
+     }
+     .textHolder {
+          width: 80%;
+          margin: 0 auto;
+          text-align: center;
+          padding: 0px;
+     }
+     .textHolder h2 {
+          text-align: center;
+     }
+     .container {
+          padding-left: 0px;
+          padding-top: 25px;
+          width: 95%;
+          margin: 0 auto;
+          text-align: center;
+     }
+     .projectVideo {
+          width: 100%;
+     }
+
+}
 @media screen and (max-width: 414px) {
      .textHolder {
           width: 95%;

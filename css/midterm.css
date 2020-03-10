@@ -232,7 +232,33 @@ h3 {
 }
 
 /* === MEDIA QUERIES === */
+/*large tablet*/
+@media screen and (max-width: 1024px){
+     .projectBlock h3 {
+          font-size: 32px;
+     }
+     .navItem {
+          padding: 200px 0px;
+     }
+     .navItem a {
+          font-size: 30px;
+     }
+}
 /*tablet*/
+@media screen and (max-width: 768px) {
+     .navItem {
+          padding: 150px 0px;
+     }
+     .navBar {
+          width: 150px;
+     }
+     .mainPage {
+          margin-left: 22%;
+     }
+     .projectBlock {
+          width: 80%;
+     }
+}
 /* larger-format smartphone */
 @media screen and (max-width: 414px) {
      .mobileNav {
